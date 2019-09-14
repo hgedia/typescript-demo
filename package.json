@@ -1,0 +1,47 @@
+{
+  "name": "developer-exercise",
+  "version": "1.0.0",
+  "description": "WDI report",
+  "main": "./dist/app.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.spec.ts",
+    "tsc": "tsc",
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "start" : "gulp && node ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hgedia/developer-exercise.git"
+  },
+  "author": "hgedia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hgedia/developer-exercise/issues"
+  },
+  "homepage": "https://github.com/hgedia/developer-exercise#readme",
+  "dependencies": {
+    "core-util-is": "^1.0.2",
+    "should": "^13.2.3",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/expect": "^1.20.4",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.2",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "chai": "^4.2.0",
+    "csv-parser": "^2.3.0",
+    "csvtojson": "^2.0.10",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "mocha": "^6.1.4",
+    "neat-csv": "^5.1.0",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.3.0"
+  }
+}
