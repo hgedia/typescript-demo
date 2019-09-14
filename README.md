@@ -14,11 +14,11 @@ Please ensure you have [npm](https://www.npmjs.com) >= 10.0.
 
 1. Clone the repository : 
    ```
-   git clone git@github.com:hgedia/developer-exercise.git
+   git clone git@github.com:hgedia/typescript-demo.git
    ```
 2. Execute
     ```
-	cd developer-exercise
+	cd typescript-demo
 	npm i gulp-cli -g
 	npm i
 	npm run test
